@@ -1,0 +1,42 @@
+.colorbox{
+    background-color: var(--main-color2);
+    float: right;
+    width: 40%;
+    border-radius: 0.5em;
+    transition: all 0.3s ease;
+}
+
+.colorbox:hover {
+    width: 100%;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbox input[type=text] {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0.59em;
+    color: var(--color2);
+    font-size: 1em;
+    line-height: 0.4em;
+    width: 80%;
+}
+
+.searchbox p {
+    color: var(--color2);
+    width: 10%;
+    padding: 0.2em;
+    max-width: 50px;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+p i {
+    position: relative;
+    left: -15px;
+}

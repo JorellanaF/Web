@@ -1,0 +1,15 @@
+.container {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.form-control.userLog {
+    border: 0px solid !important;
+    margin-top: 1em;
+}
+
+/*No es resposive*/
+.robot {
+    width: 80%;
+    height: 380px;
+}
