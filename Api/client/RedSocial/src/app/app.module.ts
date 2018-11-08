@@ -6,8 +6,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavegacionComponent } from './components/navegacion/navegacion.component';
 import { LoginComponent } from './components/user/login/login.component';
-import { ProfileComponent } from './components/user/profile/profile.component';
 import { RegistroComponent } from './components/user/registro/registro.component';
+import { ProfileComponent } from './components/user/profile/profile.component';
+
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,12 +18,14 @@ import { RegistroComponent } from './components/user/registro/registro.component
     HomeComponent,
     NavegacionComponent,
     LoginComponent,
+    RegistroComponent,
     ProfileComponent,
-    RegistroComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
